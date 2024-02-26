@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(14, 172, 33);
+  display: flex;
+  flex-direction: column;
+  padding: 120px;
+}
+.poker {
+  align-self: center;
+  margin-top: auto;
+  width: 295px;
+  height: 442px;
+  background-color: rgb(173, 10, 140);
+  border-radius: 20px;
+}
+.parte1 {
+  display: flex;
+  justify-content: start;
+  font-size: 100px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.numeros {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+}
+.parte2 {
+  display: flex;
+  justify-content: start;
+  font-size: 100px;
+  margin-right: 20px;
+  margin-top: -40px;
+  -webkit-transform: rotate(180deg);
+}
